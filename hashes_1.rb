@@ -96,7 +96,7 @@ posts = [
     number_likes: 0,
     comments: []
   },
-  
+
   {
     image_src: "./images/holiday-party.png",
     caption: "What a great holiday party omg",
@@ -108,7 +108,7 @@ posts = [
 p posts
 p posts[0]
 
-
+puts "\n" #makes it easier to read in the Terminal
 # The code snippet above shows an Array with 2 elements. Each element in the Array is a
 # Hash. Each of those Hashes has 4 key-value pairs. This may LOOK
 # a bit daunting - it's OK! You don't need to be 100% comfortable with this, but it's
@@ -118,3 +118,35 @@ p posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+#Here we go :)
+
+#assigning 3 hashes to the array so_many_emails
+#hashes are the elements in the array, which have 5 key value pairs each
+
+so_many_emails = [
+  {
+    "Sender": "joe@joe.hey",
+    "Reciever": "me@me.omg",
+    "Subject Line": "Claim your Bucket of Gold Today",
+    "Time Recieved": "12:00pm",
+    "Email Received": true
+  },
+
+  {
+    "Sender": "kitten@meow",
+    "Reciever": "puppy@woof",
+    "Subject Line": "Stop Stealing My Treats",
+    "Time Recieved": "5:23pm",
+    "Email Received": true
+  },
+
+  {
+    "Sender": "jake@statefarm",
+    "Reciever": "notjake@nofarm",
+    "Subject Line": "Free Farm with Discount Code",
+    "Time Recieved": "1:23am",
+    "Email Received": true
+  }
+
+]
+p so_many_emails
