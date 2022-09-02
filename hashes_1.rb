@@ -30,6 +30,7 @@ p foods.values[2]
 foods["Bread Rolls"] = 12
 p foods.keys
 
+puts "\n" #make it easier to read in the Terminal
 
 #-------------------
 # Part 2: Email
@@ -49,16 +50,23 @@ emails = {
   "Email Received": true
 }
 # Write code that prints your email hash to the terminal.
- emails.each do |email_keys, email_values|
-   p "Here are the details of your email: #{email_keys} : #{email_values}"
 
+puts "Please see email details below:"
+
+ emails.each do |email_keys, email_values|
+   p "#{email_keys} : #{email_values}"
+end
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
-# YOUR CODE HERE
+
+p emails.keys
 
 # Write code that prints all of the 'values' of the email hash
 # you created above:
-# YOUR CODE HERE
+p emails.values
+
+puts "\n" #Makes it easier to read in the Terminal 
+
 
 
 #-------------------
