@@ -41,9 +41,16 @@ p foods.keys
 
 # Declare a variable that stores hash. Each key should be an attribute of an email and each
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
-
+emails = {
+  "Sender": "joe@joe.hey",
+  "Reciever": "me@me.omg",
+  "Subject Line": "Claim your Bucket of Gold Today",
+  "Time Recieved": "12:00pm",
+  "Email Received": true
+}
 # Write code that prints your email hash to the terminal.
-
+ emails.each do |email_keys, email_values|
+   p "Here are the details of your email: #{email_keys} : #{email_values}"
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
