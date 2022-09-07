@@ -1,4 +1,5 @@
 # Clean Up the code below to improve readability.
+# Syntax cleaned up
 foods = {
   "apples": 23,
   "grapes": 507,
